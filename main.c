@@ -85,8 +85,10 @@ int main(int argc, char *argv[]) {
 	while (fget_word(fp, word)!=0)
 	{
 		//word processing
-		printf("%s\n", word);	//test code
+		count_word(word);
 	}
+	
+	print_word();
 	
 	
 	//fclose
